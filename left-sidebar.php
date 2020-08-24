@@ -22,7 +22,7 @@ error_reporting(0);
     </div>
 
     <ul class="nav">
-        <?php // navbar shimmer start ?>
+        <!-- <?php // navbar shimmer start ?>
         <div id="u_0_v_sidebar" class="">
             <div class="_4-u2 mbm _2iwp _4-u8">
                 <div class="_2iwo" data-testid="fbfeed_placeholder_story">
@@ -106,7 +106,7 @@ error_reporting(0);
                 </div>
             </div>
         </div>
-        <?php // navbar shimmer end ?>
+        <?php // navbar shimmer end ?> -->
 
         <div id="sidebar-links-container">
 
@@ -130,7 +130,7 @@ error_reporting(0);
                     <span class="menu-title text-uppercase font-weight-bold">Views</span>
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none">
                 <a class="nav-link" href="subject-report-page.php">
                     <i class="mdi mdi-file-excel menu-icon"></i>
                     <span class="menu-title">Subject Reports</span>
@@ -269,6 +269,7 @@ error_reporting(0);
                     <span class="menu-title">xStack Status</span>
                 </a>
             </li>
+            <?php // DO NOT MODIFY ?>
             <li class="nav-item">
                 <a class="nav-link" href="#" onclick="logout()">
                     <i class="mdi mdi-logout menu-icon"></i>

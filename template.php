@@ -61,8 +61,6 @@
                         <!-- put your main page content here
                         =======================================
                         end of main content -->
-                    
-
                     </div>
                     <!-- content-wrapper ends -->
                     <?php
